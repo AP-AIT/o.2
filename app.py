@@ -104,6 +104,7 @@ if st.button("Fetch and Generate Excel"):
             data=output,
             key="download_excel",
             on_click=None,
+            file_name="EXPO_leads.xlsx"  # Specify the file name
         )
 
     except Exception as e:
