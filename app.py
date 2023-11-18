@@ -84,7 +84,7 @@ if st.button("Fetch and Generate Excel"):
                     # Extract and add the received date
                     date = msg["Date"]
                     info["Received Date"] = date
-                    info["Subject"] = subject
+                    
 
 
                     info_list.append(info)
